@@ -1,0 +1,967 @@
+:root {
+    --col: #ED4F4F;
+    --colText: #85CE81;
+
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100%;
+
+}
+
+body {
+
+    overflow-x: hidden;
+    
+    font-family: 'Pacifico', sans-serif;
+
+
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.right {
+    text-align: right;
+}
+
+.red {
+    color: #ED4F4F;
+}
+
+.green {
+    color: #85CE81;
+}
+
+.blue {
+    color: #335FDE;
+}
+
+.white {
+    color: white;
+}
+
+.marginbottom {
+    margin-bottom: 20px;
+}
+
+.padding50 {
+    padding-top: 50%;
+}
+
+.fz28 {
+    font-size: 28px;
+}
+
+.fw-bold {
+    font-weight: bold;
+
+}
+
+.shadow {
+    box-shadow: 0 0 18px 8px #6C95CC;
+}
+
+.height-100 {
+    height: 100vh;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    /*align-items: center;*/
+    /* margin:0 auto;*/
+
+}
+
+/*---------------------------------------
+  BUTTONS               
+-----------------------------------------*/
+
+.section-btn {
+    margin: 32px 0 0 0;
+    padding: 0;
+}
+
+.section-btn a,
+.section-btn button {
+    line-height: 45px;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    perspective: 1000px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.section-btn a span,
+.section-btn button span {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    padding: 0 25px;
+    background: #4dc47d;
+    border-radius: 1px;
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.section-btn a span::before,
+.section-btn button span::before {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    border-radius: 1px;
+    color: #ffffff;
+    padding: 0 25px;
+    content: attr(data-hover);
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    transition: background 0.3s;
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+}
+
+.section-btn a:hover span,
+.section-btn a:focus span,
+
+.section-btn button:hover span,
+.section-btn button:focus span {
+    -webkit-transform: rotateX(90deg) translateY(-22px);
+    -moz-transform: rotateX(90deg) translateY(-22px);
+    transform: rotateX(90deg) translateY(-22px);
+}
+
+.section-btn a:hover span::before,
+.section-btn a:focus span::before,
+
+.section-btn button:hover span::before,
+.section-btn button:hover span::before {
+    background: #000000;
+}
+
+/*__________________________*/
+/*________________________________*/
+h1 {
+    color: #ED4F4F;
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.text {
+    font-size: 30px;
+    color:  #F5ED0E;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.borrad {
+    border-radius: 3%
+}
+
+
+
+.margin70 {
+    margin-top: 70px;
+}
+
+.padding70 {
+    padding-top: 10%;
+}
+
+.padingTop20 {
+    padding-top: 20%;
+}
+
+/*-------------preloader-----------*/
+/*.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background:   #FAF6C7;
+}
+
+.spinner {
+  border: 6px dotted var(--col);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-top-color: #FAF6C7;
+  animation: spinner .9s linear infinite;
+}
+*/
+/*.spinner:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 45px;
+  height: 45px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 1px solid var(--col);
+  border-top-color: #ffffff;
+  animation: spinner .9s linear infinite;*/
+/*}*/
+
+/*@-webkit-@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}*/
+/*-------------lang----------------*/
+input {
+    display: none;
+
+}
+
+label {
+    position: fixed;
+    top: 48px;
+    opacity: 0.4;
+    z-index: 8;
+}
+
+
+.lang {
+
+    right: 35px;
+    top: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.Z {
+    position: fixed;
+    right: 44px;
+    top: 8px;
+    width: 35px;
+    height: 35px;
+
+}
+
+.R {
+    opacity: .5;
+}
+
+.U,
+.E {
+    opacity: 0;
+}
+
+.flag {
+    opacity: 0;
+}
+
+.rus_flag {
+    right: 100px;
+
+}
+
+.eng_flag {
+    right: 65px;
+}
+
+.ukr_flag {
+    right: 30px;
+}
+
+#lang:checked~.flag {
+    opacity: 0.4;
+}
+
+
+.en {
+    display: none;
+}
+
+.ua {
+    display: none;
+}
+
+#ingl:checked~* .en {
+    display: block;
+}
+
+#ingl:checked~* .ru {
+    display: none;
+}
+
+#ingl:checked~* .ua {
+    display: none;
+}
+
+#ingl:checked~.E {
+    opacity: .5;
+}
+
+#ingl:checked~.R, .U {
+    opacity: 0;
+}
+
+
+
+
+
+#ukra:checked~* .ua {
+    display: block;
+}
+
+#ukrа:checked~* .en {
+    display: none;
+}
+
+#ukra:checked~* .ru {
+    display: none;
+}
+
+#ukra:checked~.U {
+    opacity: .5;
+}
+
+#ukra:checked~.R, .E {
+    opacity: 0;
+}
+
+
+
+/*------------HEADER----------*/
+.header {
+
+    height: 40px;
+    width: 100vw;
+
+    position: fixed;
+    z-index: 2;
+
+
+}
+
+.menu {
+
+    padding: 5px;
+    background-color: #F7F156;
+    list-style-type: none;
+    transition: all 0.9s ease;
+    transform-origin: 10% 50%;
+}
+
+
+.menu li a {
+    color: var(--col);
+    text-decoration: none;
+    padding: 3px 15px 3px 0;
+}
+
+.menu li a:hover {
+    color: #E71EE0;
+    background-color: #F5D129;
+}
+
+.menu-toggle {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.gamburger,
+.gamburger::before,
+.gamburger::after {
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 4px;
+    background-color: var(--col);
+}
+
+.gamburger::before,
+.gamburger::after {
+    content: '';
+}
+
+.gamburger::before {
+    /*transform: translateY(-9px);*/
+    top: -7px;
+
+}
+
+.gamburger::after {
+    /*transform: translateY(5px);*/
+    top: 7px;
+}
+
+.active span {
+    height: 0;
+}
+
+.active span::before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.active span::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+
+
+
+.menu-toggle:hover {
+    color: var(--col);
+}
+
+.hide {
+    transform: scale(0);
+}
+
+
+
+
+
+
+/*----------------Соломийка родилась----*/
+.newborn {
+
+    padding: 30px;
+
+    background: #F2F1F1 url(../img/detskiy-fon2.jpg)fixed center /cover;
+}
+
+.newborn-title {
+    padding-top: 30%;
+
+}
+
+/*___________---папа---мама----________*/
+
+#mather_father {
+    padding: 30px;
+    height: 100%;
+
+}
+
+.mather_father-title {
+    padding-top: 40%;
+}
+
+/*-----------------------photo--------------*/
+.photo {
+    padding-top: 40px;
+    height: 120%;
+    background: url(../img/depositphotos.jpg)no-repeat center/cover
+}
+
+
+
+
+/*------------------------VIDEO----------------*/
+.video {
+    height: auto;
+    background: url(../img/vid.jpg)fixed center /cover;
+}
+
+.video_item {
+    padding: 10px;
+
+    position: relative;
+}
+
+.video_title {
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    left: 20%;
+    top: 20%;
+
+    opacity: 0;
+    -webkit-transition: all ease-in-out 1s;
+    transition: all ease-in-out .5s;
+}
+
+.video_item:hover .video_title {
+    opacity: 1;
+}
+
+/*________________песенки---------------*/
+.muzon {
+    height: auto;
+    padding-bottom: 50px;
+    position: relative;
+
+    background: url(../img/fon_muzon.png)fixed center /cover;
+}
+
+.muzon-item h2 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*_______________мультики_______________________*/
+.multic {
+    height: auto;
+    background: #efefef url(../img/fonMulta.jpg) fixed center center/cover;
+    padding-bottom: 50px;
+
+}
+
+.multik-item iframe {
+    opacity: .4;
+    -webkit-transition: all ease-in-out 1s;
+    transition: all ease-in-out .5s;
+}
+
+.multik-item:hover iframe {
+
+    opacity: 1;
+}
+
+.multik-item h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    color: #ED4F4F;
+
+}
+
+
+
+/*___________________________________
+---------------CONTACT---------------*/
+.contact {
+
+    height: 100vh;
+
+    padding-bottom: 30px;
+}
+
+#contact-form {
+    padding-top: 22px;
+}
+
+#contact .text-success,
+#contact .text-danger {
+    display: none;
+    padding: 0 0 5px 20px;
+}
+
+#contact .form-control {
+    border: none;
+    box-shadow: none;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: #F9F8C2;
+    margin-bottom: 22px;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+
+#contact .form-control:focus {
+    border-color: #d9d9d9;
+}
+
+#contact input,
+textarea {
+    height: 55px;
+
+    line-height: 45px;
+    background-color: #E2FB9F;
+    font-family: arial;
+    opacity: .8;
+
+}
+
+#contact input:hover,
+textarea:hover {
+    opacity: 1;
+}
+
+#contact .section-btn {
+    margin: 5px 0 0 0;
+}
+
+#contact button#cf-submit {
+    background: transparent;
+    border: none;
+    padding: 0;
+    line-height: 50px;
+}
+
+/*---------FOOTER------*/
+footer {
+    background-color: #A3F2EF;
+}
+
+.footer__item {
+
+    padding-bottom: 70px;
+
+}
+
+.footer__item h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #335FDE;
+    opacity: 0;
+    -webkit-transition: all ease-in-out 1s;
+    transition: all ease-in-out 1s;
+}
+
+.footer__item img {
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer__item:hover img {
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+
+.footer__item:hover h2 {
+    opacity: 1;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.soc {
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+.social-icon li a {
+    color: #6383A7;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+
+.social-icon li a:hover {
+    background: #ffffff;
+    color: #191919;
+    line-height: 55px;
+    text-align: center;
+    border: solid #44C2D1;
+}
+
+
+
+.arrow {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    width: 100px;
+    height: 100px;
+    /*line-height: 100px;*/
+    font-size: 40px;
+    /*display: none;*/
+
+
+}
+
+.arrow:hover {
+    background: #fff;
+    color: #191919;
+    line-height: 100px;
+    text-align: center;
+    border: solid #44C2D1;
+}
+
+.scroll-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: var(--col);
+    /*background: rgba(52, 58, 64, 0.5);*/
+    line-height: 50px;
+
+    display: none;
+    /*visibility: hidden;*/
+}
+
+.scroll-to-top:hover {
+    background-color: #F7F156;
+    color: red;
+}
+
+.show1 {
+    /*visibility: visible;*/
+    display: block;
+
+}
+
+.overf {
+    width: 100vw;
+    height: 100vh;
+    background: #9E76EF;
+}
+
+.baby {
+    overflow-y: hidden;
+    position: relative;
+    background: url(../babeShark/img/sharks.png) no-repeat center/cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.solo1 {
+    position: absolute;
+
+    left: 82px;
+    bottom: -120px;
+}
+
+.solo2 {
+    position: absolute;
+
+    left: 240px;
+    bottom: -120px;
+}
+
+.solo3 {
+    position: absolute;
+    left: 52px;
+    bottom: -120px;
+}
+
+.solo4 {
+    position: absolute;
+    left: 62px;
+    bottom: 120px;
+}
+
+.dadyshark {
+    position: absolute;
+    left: 48%;
+    top: 12%;
+    width: 26%
+}
+
+.fish {
+    position: absolute;
+    width: 98px;
+    left: 114px;
+    bottom: 362px;
+}
+
+.fish:hover {
+
+    transform: rotateY(180deg);
+
+}
+
+.crab {
+    position: absolute;
+    width: 90px;
+    left: 376px;
+    bottom: 263px;
+}
+
+.crab:hover {
+    transform: scale(1.4);
+}
+
+.solo1:hover {
+    transform: scale(1.3);
+}
+
+.babe_text {
+    position: absolute;
+    left: 613px;
+    top: 280px;
+    animation: linear 5s move_text infinite;
+}
+
+.puzyr {
+    position: absolute;
+    width: 50px;
+    left: 505px;
+
+    /*-webkit-animation: linear 4s boolbool infinite; */
+}
+
+
+
+.puzyr:nth-child(1) {
+    left: 505px;
+    bottom: -260px;
+    -webkit-animation: linear 4s boolbool infinite;
+}
+
+
+
+.puzyr:nth-child(2) {
+    left: 475px;
+    bottom: -361px;
+    width: 60px;
+    -webkit-animation: 4s 4s linear boolbool infinite
+        /*alternate*/
+    ;
+}
+
+.puzyr:nth-child(3) {
+    left: 475px;
+    bottom: -22px;
+    -webkit-animation: linear 4s 8s boolbool infinite;
+}
+
+@keyframes boolbool {
+    from {}
+
+    to {
+        bottom: 100%;
+    }
+}
+
+@keyframes move_text {
+    0% {
+        height: 69px;
+        width: 631px;
+        left: 600px;
+    }
+
+    25% {
+        height: 100px;
+        width: 631px;
+    }
+
+    50% {
+        height: 69px;
+        width: 631px;
+
+    }
+
+    75% {
+        height: 100px;
+        width: 631px;
+
+    }
+
+    100% {
+        left: -631px;
+        height: 69px;
+        width: 631px;
+    }
+}
+
+/*-----------------------*/
+@media screen and (max-width: 768px) {
+
+
+
+    .container {
+        overflow: scroll;
+        width: auto;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .menu {
+        margin-right: 5%;
+        position: absolute;
+        flex-direction: column;
+        left: 0;
+        top: 47px;
+        text-align: right;
+        padding: 10px;
+        transform-origin: 90% 0%;
+    }
+
+
+    #newborn {
+        height: auto;
+
+    }
+
+    .newborn-title {
+        padding-top: 5%;
+    }
+
+    #mather_father {
+        height: auto;
+    }
+
+    .photo {
+        height: auto;
+    }
+
+    .mather_father-title {
+        padding-top: 5%;
+    }
+
+    .contact {
+        height: auto;
+        width: 100vw;
+    }
+
+}
