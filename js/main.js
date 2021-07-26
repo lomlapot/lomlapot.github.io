@@ -33,15 +33,9 @@ $(document).ready(function(){
       btn.removeClass('show1');
     }
   });
-
-
   btn.on('click', function(e) {
     e.preventDefault();
     $('html, body').animate({scrollTop:0}, '30');
   });
-
-
-
-     
-
 });
+
