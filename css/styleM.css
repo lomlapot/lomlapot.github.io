@@ -502,7 +502,7 @@ label {
 /*------------------------VIDEO----------------*/
 .video {
     height: auto;
-    background: url(../img/vid.jpg)fixed center /cover;
+    background: #8179E8 url(../img/vid.jpg)fixed center /cover;
 }
 
 .video_item {
