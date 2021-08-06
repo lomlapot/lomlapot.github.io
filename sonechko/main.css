@@ -1,7 +1,7 @@
 .body{	
     margin: 0;
     padding: 0;	
-    font-family: 'Pacifico', sans-serif;
+    font-family: 'Pacifico', cursive;
 }
 .sun-header {
     box-sizing: border-box;
@@ -85,9 +85,6 @@ h1{
 	top: 350px;
 	z-index: 2;
 }
-
-
-
 .sun__orbit2__planet1{
 	position: relative;
 	width: 100px;
@@ -101,7 +98,6 @@ h1{
 	align-items: center;
 	z-index: 2;
 }
-
 .sun__orbit2__planet2{
 	position: absolute;
 	width: 100px;
@@ -110,7 +106,6 @@ h1{
 	left: 250px;
 	top: 550px;
 	z-index: 2;
-
 	animation: spin 36s linear reverse infinite;
 }
 
@@ -141,15 +136,9 @@ h1{
 	left: 96%;
 	width: 350px;
 	height: 200px;
-	background: url(img/anton.png)no-repeat center/contain;
-		
-	animation: comet 20s linear 3;
-	
+	background: url(img/anton.png)no-repeat center/contain;		
+	animation: comet 20s linear 3;	
 }
-
-
-
-
 
 @keyframes spin{
 	from{
