@@ -12,7 +12,7 @@
     background: #8179E8 url(https://klv-oboi.kz/img/gallery/23/thumbs/thumb_l_2612.jpg) no-repeat center top / cover;
 }
 .container {
-    font-weight: 800;
+    /*font-weight: 800;*/
     letter-spacing: 0.3em;
     height: 100vh;
     width: 100%;
@@ -29,7 +29,7 @@ h1{
    position: absolute;
    top: 25%;
    left: 5%;
-   /*transform: rotate(-40deg);*/
+   transform: rotate(-40deg);
    z-index: 2;	
 }
 .sun{
@@ -151,15 +151,10 @@ h1{
 }
 
 @keyframes comet{
-	0%{
-		
-
-		
+	0%{	
 		z-index: 3;
 	}
 	25%{
-		
-		
 		z-index: 3;
 	}
 	50%{
