@@ -502,12 +502,10 @@ label {
 /*------------------------VIDEO----------------*/
 .video {
     height: auto;
-    background: #8179E8 url(../video/fonMuzon.mp4)fixed center /cover;
+    background: #8179E8 url(../img/vid. jpg)fixed center /cover;
 }
-
 .video_item {
     padding: 10px;
-
     position: relative;
 }
 
@@ -517,7 +515,6 @@ label {
     z-index: 2;
     left: 20%;
     top: 20%;
-
     opacity: 0;
     -webkit-transition: all ease-in-out 1s;
     transition: all ease-in-out .5s;
@@ -568,14 +565,10 @@ label {
 
 }
 
-
-
 /*___________________________________
 ---------------CONTACT---------------*/
 .contact {
-
     height: 100vh;
-
     padding-bottom: 30px;
 }
 
@@ -720,8 +713,6 @@ li {
     /*line-height: 100px;*/
     font-size: 40px;
     /*display: none;*/
-
-
 }
 
 .arrow:hover {
