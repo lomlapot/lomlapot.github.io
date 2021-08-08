@@ -496,13 +496,10 @@ label {
     background: url(../img/depositphotos.jpg)no-repeat center/cover
 }
 
-
-
-
 /*------------------------VIDEO----------------*/
 .video {
     height: auto;
-    background: #8179E8 url(../img/vid. jpg)fixed center /cover;
+    background: #8179E8 url(../img/vid.jpg)fixed center /cover;
 }
 .video_item {
     padding: 10px;
@@ -529,7 +526,6 @@ label {
     height: auto;
     padding-bottom: 50px;
     position: relative;
-
     background: url(../img/fon_muzon.png)fixed center /cover;
 }
 
@@ -562,8 +558,6 @@ label {
     text-align: center;
     padding-bottom: 30px;
     color: #ED4F4F;
-
-}
 
 /*___________________________________
 ---------------CONTACT---------------*/
@@ -600,7 +594,6 @@ label {
 #contact input,
 textarea {
     height: 55px;
-
     line-height: 45px;
     background-color: #E2FB9F;
     font-family: arial;
