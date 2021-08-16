@@ -384,7 +384,7 @@ label {
     background-color: #F7F156;
     list-style-type: none;
     transition: all 0.9s ease;
-    transform-origin: 10% 50%;
+    transform-origin: 0% 0%;
 }
 
 
@@ -479,12 +479,10 @@ label {
 
 /*___________---папа---мама----________*/
 
-#mather_father {
+.mather_father {
     padding: 30px;
-    height: 100%;
-
+    background: #F2F1F1 url(../img/detskiy-fon-dlya-prezentacii-1.jpg) center /cover;
 }
-
 .mather_father-title {
     padding-top: 40%;
 }
