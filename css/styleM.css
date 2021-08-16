@@ -920,7 +920,7 @@ li {
     }
 
 
-    #newborn {
+   . newborn {
         height: auto;
 
     }
@@ -929,8 +929,8 @@ li {
         padding-top: 5%;
     }
 
-    #mather_father {
-        height: auto;
+   . mather_father {
+        height: 100vh;
     }
 
     .photo {
