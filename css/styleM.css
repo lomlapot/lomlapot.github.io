@@ -895,20 +895,15 @@ li {
     }
 }
 
-/*-----------------------*/
+/*------------------------------------*/
 @media screen and (max-width: 768px) {
-
-
-
-    .container {
+    . container {
         overflow: scroll;
         width: auto;
     }
-
-}
-
-
-@media screen and (max-width: 768px) {
+    h1{
+      font-size: 40px;
+    } 
     .menu {
         margin-right: 5%;
         position: absolute;
