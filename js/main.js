@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	"use strict";
+	"use strict"
 	 // -------   Active Mobile Menu-----//
 
     $(".menu-toggle").on('click', function(e){
@@ -24,7 +24,7 @@ $(document).ready(function(){
 
   // Кнопка "наверх"
 
-  var btn = $('.scroll-to-top');
+  var btn = $('.scroll-to-top')
 
   $(window).scroll(function() {
     if ($(window).scrollTop() > 300) {
