@@ -62,10 +62,10 @@ if($(window).width() > 1024)
  
   
    p.forEach(function(ellem,i){
-    setTimeout(function(){
+    setTimeout(()=>{
         fun(ellem);
     },5000*i);
-});
+})
      
     
 
