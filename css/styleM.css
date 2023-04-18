@@ -466,7 +466,7 @@ label {
 
 /*----------------Соломийка родилась----*/
 .newborn {
-
+    height:100%;
     padding: 30px;
 
     background: #F2F1F1 url(../img/detskiy-fon2.jpg)fixed center /cover;
