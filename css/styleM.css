@@ -488,9 +488,8 @@ label {
 }
 
 /*-----------------------photo--------------*/
-.photo {
-    padding-top: 40px;
-    height: 120%;
+.photo {  
+    height: 100%;
     background: url(../img/depositphotos.jpg)no-repeat center/cover
 }
 
@@ -897,7 +896,7 @@ li {
 
 /*------------------------------------*/
 @media screen and (max-width: 768px) {
-    . container {
+    .container {
         overflow: scroll;
         width: auto;
     }
