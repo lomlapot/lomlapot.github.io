@@ -480,6 +480,7 @@ label {
 /*___________---папа---мама----________*/
 
 .mather_father {
+    height:100vh;
     padding: 30px;
     background: #F2F1F1 url(../img/detskiy-fon-dlya-prezentacii-1.jpg) center /cover;
 }
