@@ -542,14 +542,8 @@ label {
 }
 
 .multik-item iframe {
-    opacity: .4;
     -webkit-transition: all ease-in-out 1s;
     transition: all ease-in-out .5s;
-}
-
-.multik-item:hover iframe {
-
-    opacity: 1;
 }
 
 .multik-item h2 {
