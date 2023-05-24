@@ -75,7 +75,6 @@ body {
 .center {
     display: flex;
     justify-content: center;
-    padding: 5px;
     align-items: center;
      margin:0 auto;
 
@@ -466,15 +465,7 @@ label {
 
 /*----------------Соломийка родилась----*/
 .newborn {
-    height:100%;
-    padding: 30px;
-
     background: #F2F1F1 url(../img/detskiy-fon2.jpg)fixed center /cover;
-}
-
-.newborn-title {
-    padding-top: 30%;
-
 }
 
 /*___________---папа---мама----________*/
