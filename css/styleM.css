@@ -465,6 +465,7 @@ label {
 
 /*----------------Соломийка родилась----*/
 .newborn {
+    height:100vh;
     background: #F2F1F1 url(../img/detskiy-fon2.jpg)fixed center /cover;
 }
 
@@ -472,11 +473,7 @@ label {
 
 .mather_father {
     height:100vh;
-    padding: 30px;
     background: #F2F1F1 url(../img/detskiy-fon-dlya-prezentacii-1.jpg) center /cover;
-}
-.mather_father-title {
-    padding-top: 40%;
 }
 
 /*-----------------------photo--------------*/
