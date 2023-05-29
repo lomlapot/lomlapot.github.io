@@ -884,10 +884,12 @@ li {
 
 /*------------------------------------*/
 @media screen and (max-width: 768px) {
-    .container {
-        overflow: scroll;
-        width: auto;
-    }
+
+
+       
+
+
+
     h1{
       font-size: 40px;
     } 
@@ -917,7 +919,7 @@ li {
     }
 
     .photo {
-        height: auto;
+        height: 100vh ;
     }
 
     .mather_father-title {
@@ -925,7 +927,7 @@ li {
     }
 
     .contact {
-        height: auto;
+        height:100vh ;
         width: 100vw;
     }
 
