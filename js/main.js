@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	
 	"use strict"
 	 // -------   Active Mobile Menu-----//
 
@@ -7,12 +8,11 @@ $(document).ready(function(){
         $(".menu").toggleClass('hide');
         $(this).toggleClass("active");
     });
-
 /*    $(window).load(function(){
       $('.preloader').delay(500).slideUp('slow'); // set duration in brackets    
     });     */
 
-      // Плавная прокрутка
+      // Плавная прокрутка через css
 /*  $("a.scrollto").click(function() {
       var elementClick = $(this).attr("href")
       var destination = $(elementClick).offset().top;
@@ -22,7 +22,7 @@ $(document).ready(function(){
       return false;
     });     */
 
-  // Кнопка "наверх"
+  // Кнопка "наверх" через intersection observer
 
 /*  var btn = $('.scroll-to-top')
 
@@ -38,5 +38,16 @@ $(document).ready(function(){
     $('html, body').animate({scrollTop:0}, '30');
   });
 	*/
+
+	let target = document.querySelector("#newborn");
+	let arrow = document.querySelector(".scroll-to-top");
+	const observer = new InresectionObserver(entries =>{
+		
+		
+	})
+	
+	
+	
+    	  
 });
 
