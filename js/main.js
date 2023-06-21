@@ -38,16 +38,25 @@ $(document).ready(function(){
     $('html, body').animate({scrollTop:0}, '30');
   });
 	*/
+	let options = {
+	   rootMargin:'0px',
+	   threshold:0.3 
+        }
 
 	let target = document.querySelector("#newborn");
 	let arrow = document.querySelector(".scroll-to-top");
-	const observer = new InresectionObserver(entries =>{
-		
-		
-	})
 	
 	
 	
-    	  
+    	const observer = new IntersectionObserver(entries=>{
+         entries.map(entry=>{	
+	   console.log(entry.target);
+   //entry.target.classList.toggle("show",arrow ) 
+})
+   
+         arrow.classList.toggle('show');
+      },options );
+
+observer.observe(target);
 });
 
