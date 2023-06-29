@@ -1,15 +1,12 @@
-$(document).ready(function(){
-	
+$(document).ready(function(){	
 	"use strict"
 	 // -------   Active Mobile Menu-----//
-
     $(".menu-toggle").on('click', function(e){
         e.preventDefault();
         $(".menu").toggleClass('hide');
         $(this).toggleClass("active");
     });
-/*    $(window).load(function(){
-      $('.preloader').delay(500).slideUp('slow'); // set duration in brackets    
+/*    $(window).load(function(){ $('.preloader').delay(500).slideUp('slow'); // set duration in brackets    
     });     */
 
       // Плавная прокрутка через css
@@ -44,19 +41,23 @@ $(document).ready(function(){
         }
 
 	let target = document.querySelector("#newborn");
-	let arrow = document.querySelector(".scroll-to-top");
-	
-	
-	
+	let arrow = document.querySelector(".scroll-to-top");	
     	const observer = new IntersectionObserver(entries=>{
          entries.map(entry=>{	
 	   console.log(entry.target);
-   //entry.target.classList.toggle("show",arrow ) 
-})
-   
+        })  
          arrow.classList.toggle('show');
       },options );
-
 observer.observe(target);
+	
+const videoObserver =new IntersectionObserver(([entry])=>{
+	const video =entry.target;
+	if(video.currentTiime===0) return;
+	if(!entry.isIntersecting) video.pause();
+	
+},{threshold:[0.1,0.9]}
+);
+	document.querySelectorAll("video")
+	.forEach((video)=> videoObserver.observe(video));
 });
 
