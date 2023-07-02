@@ -49,12 +49,16 @@ $(document).ready(function(){
          arrow.classList.toggle('show');
       },options );
 observer.observe(target);
-	
-const videoObserver =new IntersectionObserver(([entry])=>{
-	const video =entry.target;
-	if(video.currentTiime===0) return;
-	if(!entry.isIntersecting) video.pause();
-	
+//----------------------------------------------	
+const videoObserver =new IntersectionObserver((entries)=>{
+	entries.forEach((entry)=>{
+		const video =entry.target;
+		if(video.currentTiime===0) return;
+		if(!entry.isIntersecting){
+			video.pause();
+			video.currentTime=0;
+		}
+	})	
 },{threshold:[0.1,0.9]}
 );
 	document.querySelectorAll("video")
