@@ -3,12 +3,18 @@
 	 // -------   Active Mobile Menu-------- 
           //-----------no-jquery------------------
 const menu_toggle=document.querySelector(".menu-toggle");
+const menu =document.querySelector(".menu");
 
-    $(".menu-toggle").on('click', function(e){
+menu_toggle.addEventListener("click", function(e) {
+	menu.classList.toggle("hide");
+	this.classList.toggle("active");	
+});
+
+  /*  $(".menu-toggle").on('click', function(e){
         e.preventDefault();
         $(".menu").toggleClass('hide');
         $(this).toggleClass("active");
-    });
+    }); */
 /*    $(window).load(function(){ $('.preloader').delay(500).slideUp('slow'); // set duration in brackets    
     });     */
 
