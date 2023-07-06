@@ -73,4 +73,32 @@ const videoObserver =new IntersectionObserver((entries)=>{
 	document.querySelectorAll("video")
 	.forEach((video)=> videoObserver.observe(video));
 //});
+//--------------------------------------------
 
+const sections = document.querySelectorAll("section");
+const links = document.querySelectorAll("a");
+
+const callback = (entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      links.forEach((link) => link.classList.remove("active-item"));
+
+      const activeId = entry.target.id;
+      const activeLink = document.querySelector(
+        `.menu-item[href="#${activeId}"]`
+      );
+
+      if (activeLink) {
+        activeLink.classList.add("active-item");
+      }
+    }
+  });
+};
+
+const sectionObserver = new IntersectionObserver(callback, {
+  threshold: [0.2, 0.8]
+});
+
+sections.forEach((sec) => {
+  sectionObserver.observe(sec);
+});
