@@ -1,6 +1,9 @@
-$(document).ready(function(){	
-	"use strict"
-	 // -------   Active Mobile Menu-----//
+//$(document).ready(function(){	
+	//"use strict"
+	 // -------   Active Mobile Menu-------- 
+          //-----------no-jquery------------------
+const menu_toggle=document.querySelector(".menu-toggle");
+
     $(".menu-toggle").on('click', function(e){
         e.preventDefault();
         $(".menu").toggleClass('hide');
