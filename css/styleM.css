@@ -403,7 +403,9 @@ label {
     color: #E71EE0;
     background-color: #F5D129;
 }
-
+.menu-active{
+     background-color: #F5D129;
+}
 .menu-toggle {
     display: block;
     float: left;
