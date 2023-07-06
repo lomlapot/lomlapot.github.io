@@ -72,5 +72,5 @@ const videoObserver =new IntersectionObserver((entries)=>{
 );
 	document.querySelectorAll("video")
 	.forEach((video)=> videoObserver.observe(video));
-});
+//});
 
