@@ -85,7 +85,7 @@ const callback = (entries) => {
 
       const activeId = entry.target.id;
       const activeLink = document.querySelector(
-        `.menu-item[href="#${activeId}"]`
+        `.a[href="#${activeId}"]`
       );
 
       if (activeLink) {
