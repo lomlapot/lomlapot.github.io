@@ -503,14 +503,14 @@ label {
     position: absolute;
     z-index: 2;
     left: 20%;
-    top: 20%;
-    opacity: 0;
+    top: 4%;
+    opacity: 1;
     -webkit-transition: all ease-in-out 1s;
     transition: all ease-in-out .5s;
 }
 
 .video_item:hover .video_title {
-    opacity: 1;
+    opacity: .4;
 }
 
 /*________________песенки---------------*/
