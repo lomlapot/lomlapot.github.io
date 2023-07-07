@@ -76,7 +76,7 @@ const videoObserver =new IntersectionObserver((entries)=>{
 //--------------------------------------------
 
 const sections = document.querySelectorAll("section");
-const links = document.querySelectorAll("a");
+const links = document.querySelectorAll("li a");
 
 const callback = (entries) => {
   entries.forEach((entry) => {
