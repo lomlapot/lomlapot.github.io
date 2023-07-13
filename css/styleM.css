@@ -550,6 +550,8 @@ label {
 /*___________________________________
 ---------------CONTACT---------------*/
 .contact {
+    
+     background: #efefef url(../img/AdventureProof_Duo_800px_498px.gif) fixed center center/cover
     height: 100vh;
     padding-bottom: 30px;
 }
