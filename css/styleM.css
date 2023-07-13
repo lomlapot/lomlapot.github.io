@@ -492,7 +492,7 @@ label {
 
 /*------------------------VIDEO----------------*/
 .video {
-    height: auto;
+    height: 100vh ;
     background: #8179E8 url(../img/vid.jpg)fixed center /cover;
 }
 .video_item {
@@ -517,7 +517,7 @@ label {
 
 /*________________песенки---------------*/
 .muzon {
-    height: auto;
+    height: 100vh;
     padding-bottom: 50px;
     position: relative;
     background: url(../img/fon_muzon.png)fixed center /cover;
@@ -531,7 +531,7 @@ label {
 
 /*_______________мультики_______________________*/
 .multic {
-    height: auto;
+    height: 100vh;
     background: #efefef url(../img/fonMulta.jpg) fixed center center/cover;
     padding-bottom: 50px;
 
