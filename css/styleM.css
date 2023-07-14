@@ -376,15 +376,11 @@ label {
 
     height: 40px;
     width: 100vw;
-
     position: fixed;
     z-index: 2;
-
-
 }
 
 .menu {
-
     padding: 5px;
     background-color: #F7F156;
     list-style-type: none;
@@ -433,7 +429,6 @@ label {
 .gamburger::before {
     /*transform: translateY(-9px);*/
     top: -7px;
-
 }
 
 .gamburger::after {
@@ -455,9 +450,6 @@ label {
     transform: rotate(-45deg);
 }
 
-
-
-
 .menu-toggle:hover {
     color: var(--col);
 }
@@ -465,10 +457,6 @@ label {
 .hide {
     transform: scale(0);
 }
-
-
-
-
 
 
 /*----------------Соломийка родилась----*/
@@ -492,7 +480,7 @@ label {
 
 /*------------------------VIDEO----------------*/
 .video {
-    height: 100vh ;
+    min-height: 100vh ;
     background: #8179E8 url(../img/vid.jpg)fixed center /cover;
 }
 .video_item {
@@ -514,10 +502,14 @@ label {
 .video_item:hover .video_title {
     opacity: .4;
 }
+.last-video {
+    margin-bottom:50px;
+}
+    
 
 /*________________песенки---------------*/
 .muzon {
-    height: 100vh;
+    min-height: 100vh;
     padding-bottom: 50px;
     position: relative;
     background: url(../img/fon_muzon.png)fixed center /cover;
@@ -531,7 +523,7 @@ label {
 
 /*_______________мультики_______________________*/
 .multic {
-    height: 100vh;
+    min-height: 100vh;
     background: #efefef url(../img/fonMulta.jpg) fixed center center/cover;
     padding-bottom: 50px;
 
@@ -550,8 +542,7 @@ label {
 /*___________________________________
 ---------------CONTACT---------------*/
 .contact {
-    
-     background: #efefef url(../img/AdventureProof_Duo_800px_498px.gif) fixed center center/cover
+    background: #165880 url(../img/AdventureProof_Duo_800px_498px.gif) fixed center center/cover;
     height: 100vh;
     padding-bottom: 30px;
 }
