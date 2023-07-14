@@ -604,9 +604,7 @@ textarea:hover {
 }
 
 .footer__item {
-
-    padding-bottom: 70px;
-
+   padding-bottom: 70px;
 }
 
 .footer__item h2 {
@@ -881,11 +879,6 @@ li {
 /*------------------------------------*/
 @media screen and (max-width: 768px) {
 
-
-       
-
-
-
     h1{
       font-size: 40px;
     } 
@@ -899,24 +892,4 @@ li {
         padding: 10px;
         transform-origin: 0% 0%;
     }
-
-
-   .newborn {
-        height: 100vh;
-
-    }
-
-   .mather_father {
-        height: 100vh;
-    }
-
-    .photo {
-        height: 100vh ;
-    }
-
-    .contact {
-        height:100vh ;
-        width: 100vw;
-    }
-
 }
