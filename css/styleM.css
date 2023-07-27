@@ -462,14 +462,14 @@ label {
 /*----------------Соломийка родилась----*/
 .newborn {
     height:100vh;
-    background: #F2F1F1 url(../img/detskiy-fon2.jpg)fixed center /cover;
+    background: #F2F1F1 url(../img/detskiy-fon2.jpg)fixed left /cover;
 }
 
 /*___________---папа---мама----________*/
 
 .mather_father {
     height:100vh;
-    background: #F2F1F1 url(../img/detskiy-fon-dlya-prezentacii-1.jpg) center /cover;
+    background: #F2F1F1 url(../img/detskiy-fon-dlya-prezentacii-1.jpg) right /cover;
 }
 
 /*-----------------------photo--------------*/
@@ -891,5 +891,13 @@ li {
         text-align: right;
         padding: 10px;
         transform-origin: 0% 0%;
+    }
+}
+@media (orientation: portrait) and (min-width: 600px){
+    .row-portration{
+        flex-direction: column;       
+    }
+    .col-sm-6{
+         min-width: 100%;
     }
 }
