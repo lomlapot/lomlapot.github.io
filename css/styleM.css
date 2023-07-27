@@ -894,7 +894,7 @@ li {
     }
 }
 @media (orientation: portrait) and (min-width: 600px){
-    .row-portration{
+    .row-portrait{
         flex-direction: column;       
     }
     .col-sm-6{
