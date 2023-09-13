@@ -326,13 +326,13 @@ label {
     display: none;
 }
 
-#ingl:checked~* .en {
+/*#ingl:checked~* .en {
     display: block;
 }
 
 #ingl:checked~* .ru {
     display: none;
-}
+}*/
 
 
 #ingl:checked ~* .en {
