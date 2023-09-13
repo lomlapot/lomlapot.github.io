@@ -261,11 +261,12 @@ input {
 label {
     position: fixed;
     top: 48px;
+    right: 22px;
     opacity: 0.4;
     z-index: 8;
 }
 
-
+/*
 .lang {
 
     right: 35px;
@@ -315,7 +316,7 @@ label {
 #lang:checked~.flag {
     opacity: 0.4;
 }
-
+*/
 
 .en {
     display: none;
@@ -333,50 +334,67 @@ label {
     display: none;
 }
 
-#ingl:checked~* .ua {
-    display: none;
+
+#ingl:checked ~* .en {
+	display: block;
+}
+#ingl:checked ~* .ru, .ua {
+	display: none;
+}
+#ingl:checked ~.ukr_flag {
+	opacity: 0;
+	z-index: 10;
 }
 
-#ingl:checked~.E {
-    opacity: .5;
+#ingl:checked ~ .rus_flag {
+	opacity: 0;
+	z-index: auto;
+}
+#ingl:checked ~.eng_flag {
+	opacity: 0.4;
+	z-index: auto;
 }
 
-#ingl:checked~.R, .U {
-    opacity: 0;
+#ukra:checked ~* .ua {
+	display: block;
+}
+#ukra:checked ~*
+.ru,.en {
+	display: none;
 }
 
-
-
-
-
-#ukra:checked~* .ua {
-    display: block;
+#ukra:checked ~.ukr_flag {
+	opacity: 0.4;
+	z-index: auto;
 }
 
-#ukrа:checked~* .en {
-    display: none;
+#ukra:checked ~ .eng_flag {
+	opacity: 0;
+	z-index: auto;
 }
-
-#ukra:checked~* .ru {
-    display: none;
+#ukra:checked ~.rus_flag {
+	opacity: 0;
+	z-index: 10;
 }
-
-#ukra:checked~.U {
-    opacity: .5;
+#russ:checked~.eng_flag {
+	opacity: 0;
+	z-index: 10;
 }
-
-#ukra:checked~.R, .E {
-    opacity: 0;
+#russ:checked ~.rus_flag {
+	opacity: 0.4;
+	z-index: auto;
 }
-
+#russ:checked ~.ukr_flag {
+	opacity: 0;
+	z-index: auto;
+}
 
 
 /*------------HEADER----------*/
 .header {
-
+    width:100wv;
     height: 40px;
-    width: 100vw;
-    position: fixed;
+    position:fixed;
     z-index: 2;
 }
 
