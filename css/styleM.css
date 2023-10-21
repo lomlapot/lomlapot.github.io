@@ -480,6 +480,33 @@ label {
     height:100vh;
     background: #F2F1F1 url(../img/detskiy-fon2.jpg)fixed left /cover;
 }
+	
+.newmia {
+    opacity: 0;
+}
+
+.mia-anim {
+	animation-name: opas;
+	animation-duration: 3s;
+	opacity: 1;
+}
+/* @keyframes margleft {
+	from {
+		margin-left: -100%;
+	}
+	to {
+		margin-left: 0;
+	}
+}*/
+@keyframes opas {
+	from {
+		scale: 0;
+	}
+	to {
+		scale: 100%;
+	}
+}
+
 
 /*___________---папа---мама----________*/
 
