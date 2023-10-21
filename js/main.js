@@ -51,11 +51,13 @@ menu_toggle.addEventListener("click", function(e) {
 
 	let target = document.querySelector("#newborn");
 	let arrow = document.querySelector(".scroll-to-top");	
+        const animationM = document.querySelector(".newmia")
     	const observer = new IntersectionObserver(entries=>{
          entries.map(entry=>{	
 	   console.log(entry.target);
         })  
          arrow.classList.toggle('show');
+	 animationM.classList.toggle("mia-anim");	
       },options );
 observer.observe(target);
 //----------------------------------------------	
