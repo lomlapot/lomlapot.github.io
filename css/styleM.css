@@ -74,7 +74,7 @@ body {
 }
 
 .wrapperScroll{
-    height: 100vh;
+    height: 100svh;
     overflow-y:auto;
     scroll-behavior:smooth;
     scroll-snap-type: y mandatory;
