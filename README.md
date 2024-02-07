@@ -116,7 +116,7 @@
 ![школа](img/Mia_in_shool.jpg)
 
 ## У Мії з'явився братик Омельчик
-<img src="img/omelchik1.jpg" width =200>
+<img src="img/omelchik1.jpg" width =350>
 
 -Хочу знову бути малючком - лежишь ореш і всі тебе обожнюють!
 
