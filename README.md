@@ -2,7 +2,7 @@
 
 # Страничка про Соломийку!
 
- <img src=Sun.png width=200 alt ="sun">
+ <img src=sonechko/img/Sun.png width=200 alt ="sun">
  
 ## Словарь маленької Соломії
 щус, нинишки, дапапай, машима, тапки,
