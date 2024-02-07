@@ -1,5 +1,3 @@
-# lomlapot.github.io
-
 # Страничка про Соломийку!
 
  <img src=sonechko/img/Sun.png width=200 alt ="sun">
@@ -115,10 +113,10 @@
 ## Міїчці 5 років, вона пішла до школи 
 
 
-![школа](shcola.jpg)
+![школа](img/shcola.jpg)
 
 ## У Мії з'явився братик Омельчик
-<img src="omelchik.jpg" width =200>
+<img src="img/omelchik.jpg" width =200>
 
 -Хочу знову бути малючком - лежишь ореш і всі тебе обожнюють!
 
@@ -128,5 +126,5 @@
 
 ### Омельчику 5 місяців
 
-![Мія Омельчик ](MiaOmelian.jpg) 
+![Мія Омельчик ](img/MiaOmelian.jpg) 
 
