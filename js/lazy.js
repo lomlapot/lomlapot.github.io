@@ -1,4 +1,4 @@
-const videos = document.querySelectorAll('.video');
+const videos = document.querySelectorAll('.videoYoutbe');
 const ownvideos = document.querySelectorAll('.own');
 
 function generateUrl(id) {
@@ -27,8 +27,9 @@ function addButton() {
   btn.append(svg);
   return btn;
 }
+
 //creating button
-const btns = document.querySelectorAll('.button');
+//const btns = document.querySelectorAll('.button');
 //btns.forEach((el) => {
 //const svg = document.createElement('svg');
 // let svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
@@ -44,6 +45,7 @@ const btns = document.querySelectorAll('.button');
 // svg.append(path1,path2);
 //el.append(addButton());
 //});
+
 // creating iframe
 function createIframe(id) {
   let iframe = document.createElement('iframe');
