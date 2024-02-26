@@ -57,6 +57,7 @@ function createIframe(id) {
 //цикл из видосиков
 if (videos) {
   videos.forEach((el) => {
+    el.style.setProperty('position', 'relative');
     el.append(addButton());
 
     let videoHref = el.dataset.video;
