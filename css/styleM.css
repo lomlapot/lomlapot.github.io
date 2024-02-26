@@ -538,21 +538,15 @@ label {
 }
 
 /* ---------lazy--------*/
-iframe,
-img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-  border: none;
-}
 
 .btn-reset {
   border: none;
   background: transparent;
   cursor: pointer;
 }
-
+.youtubImg {
+  width: 80%;
+}
 .video-play {
   position: absolute;
   left: 50%;
@@ -883,6 +877,7 @@ li {
 
 .puzyr:nth-child(2) {
   left: 475px;
+
   bottom: -361px;
   width: 60px;
   -webkit-animation: 4s 4s linear boolbool infinite /*alternate*/;
