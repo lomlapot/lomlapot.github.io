@@ -515,8 +515,10 @@ label {
   background: #8179e8 url(../img/vid.jpg) fixed center / cover;
 }
 .video_item {
-  padding: 10px;
   position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
 }
 
 .video_title {
@@ -545,7 +547,7 @@ label {
   cursor: pointer;
 }
 .youtubImg {
-  width: 80%;
+  width: 90%;
 }
 .video-play {
   position: absolute;
