@@ -475,7 +475,7 @@ label {
 
 .mia-anim {
   animation-name: opas;
-  animation-duration: 3s;
+  animation-duration: 1s;
   opacity: 1;
 }
 /* @keyframes margleft {
@@ -488,7 +488,7 @@ label {
 }*/
 @keyframes opas {
   from {
-    scale: 0;
+    scale: 40%;
   }
   to {
     scale: 100%;
