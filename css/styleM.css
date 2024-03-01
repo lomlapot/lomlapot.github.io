@@ -55,7 +55,7 @@ body {
 }
 
 ._shadow {
-  box-shadow: 0 0 18px 8px #6c95cc;
+  box-shadow: 10px 10px 4px #cacfd0;
 }
 
 .height-100 {
@@ -478,14 +478,7 @@ label {
   animation-duration: 1s;
   opacity: 1;
 }
-/* @keyframes margleft {
-	from {
-		margin-left: -100%;
-	}
-	to {
-		margin-left: 0;
-	}
-}*/
+
 @keyframes opas {
   from {
     scale: 40%;
