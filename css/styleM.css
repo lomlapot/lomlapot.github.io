@@ -813,6 +813,7 @@ li {
 .puzyr:nth-child(1) {
   left: 505px;
   bottom: -260px;
+  animation: linear 4s 8s boolbool infinite;
   -webkit-animation: linear 4s boolbool infinite;
 }
 
@@ -821,6 +822,7 @@ li {
 
   bottom: -361px;
   width: 60px;
+  animation: linear 4s 8s boolbool infinite;
   -webkit-animation: 4s 4s linear boolbool infinite /*alternate*/;
 }
 
@@ -828,6 +830,7 @@ li {
   left: 475px;
   bottom: -22px;
   -webkit-animation: linear 4s 8s boolbool infinite;
+  animation: linear 4s 8s boolbool infinite;
 }
 
 @keyframes boolbool {
