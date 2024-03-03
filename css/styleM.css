@@ -55,7 +55,7 @@ body {
 }
 
 ._shadow {
-  box-shadow: 0 0 18px 8px #6c95cc;
+  box-shadow: 10px 10px 4px #cacfd0;
 }
 
 .height-100 {
@@ -160,7 +160,6 @@ body {
   background: #000000;
 }
 
-/*__________________________*/
 /*________________________________*/
 h1 {
   color: #ed4f4f;
@@ -190,59 +189,14 @@ p {
 }
 
 .padding70 {
-  padding-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .padingTop20 {
   padding-top: 20%;
 }
 
-/*-------------preloader-----------*/
-/*.preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 9;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  background:   #FAF6C7;
-}
-
-.spinner {
-  border: 6px dotted var(--col);
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  border-top-color: #FAF6C7;
-  animation: spinner .9s linear infinite;
-}
-*/
-/*.spinner:before {
-  content: '';
-  box-sizing: border-box;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 45px;
-  height: 45px;
-  margin-top: -10px;
-  margin-left: -10px;
-  border-radius: 50%;
-  border: 1px solid var(--col);
-  border-top-color: #ffffff;
-  animation: spinner .9s linear infinite;*/
-/*}*/
-
-/*@-webkit-@keyframes spinner {
-  to {transform: rotate(360deg);}
-}
-
-@keyframes spinner {
-  to {transform: rotate(360deg);}
-}*/
 /*-------------lang----------------*/
 input {
   display: none;
@@ -254,59 +208,54 @@ label {
   right: 22px;
   opacity: 0.4;
 }
-
 /*
 .lang {
-
-    right: 35px;
-    top: 8px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-    z-index: 3;
+  right: 35px;
+  top: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 3;
 }
 
 .Z {
-    position: fixed;
-    right: 44px;
-    top: 8px;
-    width: 35px;
-    height: 35px;
-
+  position: fixed;
+  right: 44px;
+  top: 8px;
+  width: 35px;
+  height: 35px;
 }
 
 .R {
-    opacity: .5;
+  opacity: 0.5;
 }
 
 .U,
 .E {
-    opacity: 0;
+  opacity: 0;
 }
 
 .flag {
-    opacity: 0;
+  opacity: 0;
 }
 
 .rus_flag {
-    right: 100px;
-
+  right: 100px;
 }
 
 .eng_flag {
-    right: 65px;
+  right: 65px;
 }
 
 .ukr_flag {
-    right: 30px;
+  right: 30px;
 }
 
-#lang:checked~.flag {
-    opacity: 0.4;
+#lang:checked ~ .flag {
+  opacity: 0.4;
 }
 */
-
 .en {
   display: none;
 }
@@ -465,7 +414,6 @@ label {
 
 /*----------------Соломийка родилась----*/
 .newborn {
-  height: 100vh;
   background: #f2f1f1 url(../img/detskiy-fon2.jpg) fixed left / cover;
 }
 
@@ -475,20 +423,13 @@ label {
 
 .mia-anim {
   animation-name: opas;
-  animation-duration: 3s;
+  animation-duration: 1s;
   opacity: 1;
 }
-/* @keyframes margleft {
-	from {
-		margin-left: -100%;
-	}
-	to {
-		margin-left: 0;
-	}
-}*/
+
 @keyframes opas {
   from {
-    scale: 0;
+    scale: 40%;
   }
   to {
     scale: 100%;
@@ -498,14 +439,12 @@ label {
 /*___________---папа---мама----________*/
 
 .mather_father {
-  height: 100vh;
   background: #f2f1f1 url(../img/detskiy-fon-dlya-prezentacii-1.jpg) right /
     cover;
 }
 
 /*-----------------------photo--------------*/
 .photo {
-  height: 100vh;
   background: url(../img/depositphotos.jpg) no-repeat center/cover;
 }
 
@@ -515,14 +454,16 @@ label {
   background: #8179e8 url(../img/vid.jpg) fixed center / cover;
 }
 .video_item {
-  padding: 10px;
   position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
 }
 
 .video_title {
   color: #fff;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   left: 20%;
   top: 4%;
   opacity: 1;
@@ -537,11 +478,46 @@ label {
   margin-bottom: 50px;
 }
 
+/* ---------lazy--------*/
+
+.btn-reset {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.youtubImg {
+  width: 90%;
+}
+.video-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-play-shape {
+  fill: #ff0000;
+  fill-opacity: 0.66;
+}
+
+.video-play-icon {
+  fill: #ffffff;
+}
+
+.video-play:focus {
+  outline: none;
+}
+
+.video:hover .video-play-shape,
+.video:focus .video-play-shape {
+  fill: #ff0000;
+  fill-opacity: 1;
+}
+
 /*________________песенки---------------*/
 .muzon {
   min-height: 100vh;
   padding-bottom: 50px;
-  position: relative;
   background: url(../img/fon_muzon.png) fixed center / cover;
 }
 
@@ -558,14 +534,14 @@ label {
   padding-bottom: 50px;
 }
 
-.multik-item iframe {
-  -webkit-transition: all ease-in-out 1s;
-  transition: all ease-in-out 0.5s;
+.multik-item iframe,
+.multik-item div {
+  position: relative;
+  margin: 20px;
 }
-
-.multik-item h2 {
+.multik-item h4 {
   text-align: center;
-  padding-bottom: 30px;
+  margin-bottom: 10px;
   color: #ed4f4f;
 }
 /*___________________________________
@@ -836,24 +812,24 @@ li {
 .puzyr:nth-child(1) {
   left: 505px;
   bottom: -260px;
-  animation: 4s 4s linear boolbool infinite;
+  animation: linear 4s 8s boolbool infinite;
   -webkit-animation: linear 4s boolbool infinite;
 }
 
 .puzyr:nth-child(2) {
   left: 475px;
+
   bottom: -361px;
   width: 60px;
-  animation: 4s 4s linear boolbool infinite;
-  -webkit-animation: 4s 4s linear boolbool infinite;
-  /*alternate*/
+  animation: linear 4s 8s boolbool infinite;
+  -webkit-animation: 4s 4s linear boolbool infinite /*alternate*/;
 }
 
 .puzyr:nth-child(3) {
   left: 475px;
   bottom: -22px;
-  animation: 4s 4s linear boolbool infinite;
   -webkit-animation: linear 4s 8s boolbool infinite;
+  animation: linear 4s 8s boolbool infinite;
 }
 
 @keyframes boolbool {
