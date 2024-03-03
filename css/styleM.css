@@ -189,7 +189,8 @@ p {
 }
 
 .padding70 {
-  padding-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .padingTop20 {
@@ -207,7 +208,7 @@ label {
   right: 22px;
   opacity: 0.4;
 }
-
+/*
 .lang {
   right: 35px;
   top: 8px;
@@ -254,7 +255,8 @@ label {
 #lang:checked ~ .flag {
   opacity: 0.4;
 }
-*/ .en {
+*/
+.en {
   display: none;
 }
 
@@ -461,7 +463,7 @@ label {
 .video_title {
   color: #fff;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   left: 20%;
   top: 4%;
   opacity: 1;
@@ -516,7 +518,7 @@ label {
 .muzon {
   min-height: 100vh;
   padding-bottom: 50px;
-  position: relative;
+
   background: url(../img/fon_muzon.png) fixed center / cover;
 }
 
@@ -539,12 +541,8 @@ label {
   margin: 20px;
 }
 .multik-item h4 {
-  position: absolute;
-  left: 20%;
-  top: 10%;
-  z-index: 2;
   text-align: center;
-  padding-bottom: 30px;
+  margin-bottom: 10px;
   color: #ed4f4f;
 }
 /*___________________________________
