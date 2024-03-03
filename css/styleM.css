@@ -606,6 +606,7 @@ textarea:hover {
 /*---------FOOTER------*/
 .parents {
   background-color: #a3f2ef;
+  min-height: 100dvh;
 }
 
 .footer__item {
