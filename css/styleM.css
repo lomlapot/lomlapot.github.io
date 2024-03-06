@@ -485,9 +485,11 @@ label {
   background: transparent;
   cursor: pointer;
 }
-.youtubImg {
+
+.videoYoutbe {
   width: 90%;
 }
+
 .video-play {
   position: absolute;
   left: 50%;
@@ -537,7 +539,7 @@ label {
 .multik-item iframe,
 .multik-item div {
   position: relative;
-  margin: 20px;
+  margin: 20px 0;
 }
 .multik-item h4 {
   text-align: center;
