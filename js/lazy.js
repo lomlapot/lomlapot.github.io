@@ -49,6 +49,7 @@ function addButton() {
 // creating iframe
 function createIframe(id) {
   let iframe = document.createElement('iframe');
+  iframe.setAttribute('width', '90%');
   iframe.setAttribute('allowfullscreen', '');
   iframe.setAttribute('allow', 'autoplay; encrypted-media');
   iframe.setAttribute('src', generateUrl(id));
