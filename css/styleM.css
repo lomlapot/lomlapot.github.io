@@ -454,7 +454,6 @@ label {
   background: #8179e8 url(../img/vid.jpg) fixed center / cover;
 }
 .video_item {
-  position: relative;
   display: flex;
   justify-content: center;
   margin: 10px;
