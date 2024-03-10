@@ -455,10 +455,7 @@ label {
   padding-bottom: 50px;
 }
 .video_item {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-  border: #191919 solid;
+  margin: 10px 0;
 }
 
 .video_title {
@@ -483,9 +480,8 @@ label {
   background: transparent;
   cursor: pointer;
 }
-
-.videoYoutbe {
-  width: 90%;
+.youtubImg {
+  width: 100%;
 }
 
 .video-play {
