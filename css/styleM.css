@@ -454,9 +454,7 @@ label {
   background: #8179e8 url(../img/vid.jpg) fixed center / cover;
 }
 .video_item {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .video_title {
@@ -485,8 +483,9 @@ label {
   cursor: pointer;
 }
 .youtubImg {
-  width: 90%;
+  width: 100%;
 }
+
 .video-play {
   position: absolute;
   left: 50%;

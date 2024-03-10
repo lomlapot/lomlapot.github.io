@@ -49,7 +49,8 @@ function addButton() {
 // creating iframe
 function createIframe(id) {
   let iframe = document.createElement('iframe');
-  iframe.setAttribute('width', '90%');
+  iframe.setAttribute('width', '100%');
+
   iframe.setAttribute('allowfullscreen', '');
   iframe.setAttribute('allow', 'autoplay; encrypted-media');
   iframe.setAttribute('src', generateUrl(id));
@@ -58,7 +59,7 @@ function createIframe(id) {
 //цикл из видосиков
 if (videos) {
   videos.forEach((el) => {
-    el.style.setProperty('position', 'relative');
+    //el.style.setProperty('position', 'relative');
     //el.append(addButton());
 
     let videoHref = el.dataset.video;
