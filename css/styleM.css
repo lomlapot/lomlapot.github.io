@@ -452,12 +452,13 @@ label {
 .video {
   min-height: 100vh;
   background: #8179e8 url(../img/vid.jpg) fixed center / cover;
+  padding-bottom: 50px;
 }
 .video_item {
-  position: relative;
   display: flex;
   justify-content: center;
   margin: 10px;
+  border: #191919 solid;
 }
 
 .video_title {
@@ -473,9 +474,6 @@ label {
 
 .video_item:hover .video_title {
   opacity: 0.4;
-}
-.last-video {
-  margin-bottom: 50px;
 }
 
 /* ---------lazy--------*/
@@ -605,7 +603,8 @@ textarea:hover {
   line-height: 50px;
 }
 
-/*---------FOOTER------*/
+/*--------parents-------*/
+
 .parents {
   background-color: #a3f2ef;
   min-height: 100dvh;
@@ -625,6 +624,7 @@ textarea:hover {
 }
 
 .footer__item img {
+  border-radius: 50%;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
   display: block;
@@ -633,7 +633,7 @@ textarea:hover {
 
 .footer__item:hover img {
   transform: scale(1.2);
-  opacity: 0.7;
+  border: #335fde solid;
 }
 
 .footer__item:hover h2 {
