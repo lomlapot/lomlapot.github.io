@@ -8,13 +8,11 @@
   overflow: hidden;
   height: 100vh;
   width: 100%;
-  background: #8179e8
-    url(https://klv-oboi.kz/img/gallery/23/thumbs/thumb_l_2612.jpg) no-repeat
-    center top / cover;
+  background: linear-gradient(120deg, #9b97ce, #1405ee);
 }
 .container {
   /*font-weight: 800;*/
-  letter-spacing: 0.3em;
+
   height: 100vh;
   width: 100%;
 
