@@ -11,7 +11,7 @@ body {
 
 body {
   overflow-x: hidden;
-  font-family: 'Pacifico', sans-serif;
+  font-family: "Pacifico", sans-serif;
 }
 
 * {
@@ -343,13 +343,13 @@ label {
   transform-origin: 0% 0%;
 }
 
-.menu li a {
+.menu a {
   color: var(--col);
   text-decoration: none;
   padding: 3px 15px 3px 0;
 }
 
-.menu li a:hover {
+.menu a:hover {
   color: #e71ee0;
   background-color: #f5d129;
 }
@@ -377,7 +377,7 @@ label {
 
 .gamburger::before,
 .gamburger::after {
-  content: '';
+  content: "";
 }
 
 .gamburger::before {
