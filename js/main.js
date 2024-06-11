@@ -81,7 +81,7 @@ document
 //--------------------------------------------
 
 const sections = document.querySelectorAll("section");
-const links = document.querySelectorAll("li a");
+const links = document.querySelectorAll(" a");
 
 const callback = (entries) => {
   entries.forEach((entry) => {
