@@ -524,6 +524,10 @@ label {
   fill-opacity: 1;
 }
 
+.own{
+  width: 100%;
+}
+
 /*________________песенки---------------*/
 .muzon {
   min-height: 100vh;
