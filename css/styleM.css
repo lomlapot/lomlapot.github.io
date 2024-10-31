@@ -414,11 +414,24 @@ label {
 
 /*----------------Соломийка родилась----*/
 .newborn {
-  background: #f2f1f1 url(../img/detskiy-fon2.jpg) fixed left / cover;
+/*   background: #f2f1f1 url(../img/detskiy-fon2.jpg) fixed left / cover; */
+  position: relative;
+}
+.newborn:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  /* background: url(background.png) 0 0 repeat; */
+  background: #fae173 url(../img/detskiy-fon-dlya-prezentacii-1.jpg) left /cover;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .newmia {
   opacity: 0;
+  width:86%;
 }
 
 .mia-anim {
@@ -456,6 +469,7 @@ label {
 }
 .video_item {
   margin: 10px 0;
+  position: relative;
 }
 
 .video_title {
