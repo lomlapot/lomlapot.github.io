@@ -424,7 +424,7 @@ label {
   height: 100%;
   z-index: -1;
   /* background: url(background.png) 0 0 repeat; */
-  background: #fae173 url(../img/detskiy-fon-dlya-prezentacii-1.jpg) left /cover;
+  background: #e6e3da url(../img/detskiy-fon-dlya-prezentacii-1.jpg) left /cover;
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
@@ -452,7 +452,7 @@ label {
 /*___________---папа---мама----________*/
 
 .mather_father {
-  background: #f2f1f1 url(../img/detskiy-fon-dlya-prezentacii-1.jpg) right /
+  background: #e6e3da url(../img/detskiy-fon-dlya-prezentacii-1.jpg) right /
     cover;
 }
 
