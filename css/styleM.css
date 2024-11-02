@@ -532,7 +532,7 @@ label {
 .muzon {
   min-height: 100vh;
   padding-bottom: 50px;
-  background: url(../img/fon_muzon.png) fixed center / cover;
+  background: url(../img/fon_muzon.avif) fixed center / cover;
 }
 
 .muzon-item h2 {
