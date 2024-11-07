@@ -463,7 +463,6 @@ label {
 
 /*------------------------VIDEO----------------*/
 .video {
-  min-height: 100vh;
   background: #8179e8 url(../img/vid.jpg) fixed center / cover;
   padding-bottom: 50px;
 }
@@ -530,7 +529,6 @@ label {
 
 /*________________песенки---------------*/
 .muzon {
-  min-height: 100vh;
   padding-bottom: 50px;
   background: url(../img/fon_muzon.avif) fixed center / cover;
 }
