@@ -685,6 +685,14 @@ li {
   background-color: #fff;
 }
 
+.social-icon a img{
+  width: 30px;
+  height: 30px;
+align-self: center;
+/* filter: invert(22%) sepia(72%) saturate(2511%) hue-rotate(351deg) brightness(99%) contrast(107%); */
+/* filter: invert(98%) sepia(31%) saturate(5564%) hue-rotate(177deg) brightness(94%) contrast(84%); */
+filter: invert(34%) sepia(43%) saturate(2973%) hue-rotate(229deg) brightness(90%) contrast(93%);
+}
 .social-icon li a:hover {
   color: #191919;
   line-height: 55px;
