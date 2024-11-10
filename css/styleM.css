@@ -652,6 +652,14 @@ textarea:hover {
   opacity: 1;
 }
 
+.par {
+  border-radius: 50%;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  display: block;
+  margin: 0 auto;
+}
+
 ul,
 li {
   margin: 0;
@@ -691,10 +699,9 @@ li {
 align-self: center;
 filter: invert(34%) sepia(43%) saturate(2973%) hue-rotate(229deg) brightness(90%) contrast(93%);
 }
-.social-icon li a:hover {
 
+.social-icon li a:hover {
   line-height: 55px;
- 
   border: solid #6259df;
 }
 
