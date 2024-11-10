@@ -635,7 +635,7 @@ textarea:hover {
   transition: all ease-in-out 1s;
 }
 
-.footer__item img {
+.par {
   border-radius: 50%;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
@@ -643,7 +643,7 @@ textarea:hover {
   margin: 0 auto;
 }
 
-.footer__item:hover img {
+.footer__item:hover .par {
   transform: scale(1.2);
   border: #335fde solid;
 }
@@ -692,10 +692,10 @@ align-self: center;
 filter: invert(34%) sepia(43%) saturate(2973%) hue-rotate(229deg) brightness(90%) contrast(93%);
 }
 .social-icon li a:hover {
-  color: #191919;
+
   line-height: 55px;
-  text-align: center;
-  border: solid #44c2d1;
+ 
+  border: solid #6259df;
 }
 
 .arrow {
@@ -727,7 +727,6 @@ filter: invert(34%) sepia(43%) saturate(2973%) hue-rotate(229deg) brightness(90%
   color: var(--col);
   /*background: rgba(52, 58, 64, 0.5);*/
   line-height: 50px;
-
   display: block;
   /*visibility: hidden;*/
 }
