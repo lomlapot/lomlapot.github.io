@@ -748,17 +748,6 @@ filter: invert(34%) sepia(43%) saturate(2973%) hue-rotate(229deg) brightness(90%
   display: none;
 }
 
-.overf {
-  width: 100vw;
-  height: 100vh;
-  background: #9e76ef;
-}
-
-
-
-
-
-
 /*------------------------------------*/
 @media screen and (max-width: 768px) {
   h1 {
