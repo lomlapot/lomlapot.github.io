@@ -564,8 +564,8 @@ label {
   padding-bottom: 50px;
 }
 
-.multik-item iframe,
-.multik-item div {
+
+.multik-item {
   position: relative;
   margin: 20px 0;
 }
