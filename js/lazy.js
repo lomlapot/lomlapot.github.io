@@ -63,14 +63,14 @@ if (videos) {
     //el.append(addButton());
 
     let videoHref = el.dataset.video;
-    console.log(videoHref);
+   // console.log(videoHref);
     //let deleted = "https://youtu.be/".length;//16
     let videoId = videoHref.substring(17, 28);
     console.log(videoId);
     //let img = el.querySelector('.youtuImg');
     let youtubeImgSrc = 'https://i.ytimg.com/vi/' + videoId + '/mqdefault.jpg';
 
-    console.log(youtubeImgSrc);
+    //console.log(youtubeImgSrc);
     //img.setAttribute('src', youtubeImgSrc);
     const img = document.createElement('img');
     img.classList = 'youtubImg';
