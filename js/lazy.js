@@ -3,7 +3,6 @@ const ownvideos = document.querySelectorAll('.own');
 
 function generateUrl(id) {
   let query = '?rel=0&showinfo=0&autoplay=1';
-
   return 'https://www.youtube.com/embed/' + id + query;
 }
 
@@ -54,6 +53,7 @@ function createIframe(id) {
   iframe.setAttribute('allowfullscreen', '');
   iframe.setAttribute('allow', 'autoplay; encrypted-media');
   iframe.setAttribute('src', generateUrl(id));
+  observerYouTube.observe(iframe); // Подключаем новый iframe к observer
   return iframe;
 }
 //цикл из видосиков
