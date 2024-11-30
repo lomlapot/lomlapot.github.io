@@ -83,7 +83,7 @@ if (videos) {
       let iframe = createIframe(videoId);
       el.querySelector('.youtubImg').remove();
       el.appendChild(iframe);
-      el.querySelector('button').remove();
+      //el.querySelector('button').remove();
     });
   });
 }
