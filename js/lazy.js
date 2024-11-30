@@ -2,7 +2,7 @@ const videos = document.querySelectorAll('.videoYoutbe');
 const ownvideos = document.querySelectorAll('.own');
 
 function generateUrl(id) {
-  let query = '?rel=0&showinfo=0&autoplay=1';
+  let query = '?rel=0&showinfo=0&autoplay=1&enablejsapi=1';
   return 'https://www.youtube.com/embed/' + id + query;
 }
 
