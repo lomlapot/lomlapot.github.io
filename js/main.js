@@ -87,10 +87,8 @@ const callback = (entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       links.forEach((link) => link.classList.remove("active-item"));
-
       const activeId = entry.target.id;
       const activeLink = document.querySelector(`a[href="#${activeId}"]`);
-
       if (activeLink) {
         activeLink.classList.add("active-item");
       }
@@ -105,3 +103,28 @@ const sectionObserver = new IntersectionObserver(callback, {
 sections.forEach((sec) => {
   sectionObserver.observe(sec);
 });
+
+//____________остановка youtube ____________
+
+let iframes = document.querySelectorAll('iframe');
+
+// Настройка Intersection Observer
+const observerYouTube = new IntersectionObserver(entries=>{
+  //  Callback для Intersection Observer
+  entries.forEach(entry => {
+    const iframe = entry.target;
+
+    if (!entry.isIntersecting) {
+      iframe.contentWindow.postMessage(JSON.stringify({event: 'command', func:'pauseVideo', args: []}),'*');//  на паузу
+    }
+  })
+
+}, {
+  threshold: 0.5 // Элемент считается видимым, если 50% его области в пределах экрана
+});
+
+// Подключение всех iframe
+iframes.forEach(iframe => {
+  observerYouTube.observe(iframe);
+});
+
