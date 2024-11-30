@@ -788,5 +788,6 @@ filter: invert(34%) sepia(43%) saturate(2973%) hue-rotate(229deg) brightness(90%
   }
   .col-sm-6 {
     min-width: 100%;
+    height: 50%;
   }
 }
