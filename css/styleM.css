@@ -464,7 +464,6 @@ label {
 /*------------------------VIDEO----------------*/
 .video {
   background: #8179e8 url(../img/vid.jpg) fixed center / cover;
-  padding-bottom: 50px;
 }
 .video_item {
   margin: 10px 0;
@@ -514,40 +513,12 @@ label {
     height: 100%;
 }
 
-
-.video-play {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.video-play-shape {
-  fill: #ff0000;
-  fill-opacity: 0.66;
-}
-
-.video-play-icon {
-  fill: #ffffff;
-}
-
-.video-play:focus {
-  outline: none;
-}
-
-.video:hover .video-play-shape,
-.video:focus .video-play-shape {
-  fill: #ff0000;
-  fill-opacity: 1;
-}
-
 .own{
   width: 100%;
 }
 
 /*________________песенки---------------*/
 .muzon {
-  padding-bottom: 50px;
   background: url(../img/fon_muzon.avif) fixed center / cover;
 }
 
