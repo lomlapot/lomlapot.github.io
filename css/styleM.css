@@ -463,6 +463,7 @@ label {
 
 /*------------------------VIDEO----------------*/
 .video {
+  min-height: 100%;
   background: #8179e8 url(../img/vid.jpg) fixed center / cover;
 }
 .video_item {
@@ -519,6 +520,7 @@ label {
 
 /*________________песенки---------------*/
 .muzon {
+  min-height: 100%;
   background: #5b52da url(../img/fon_muzon.avif) fixed center / cover;
 }
 
