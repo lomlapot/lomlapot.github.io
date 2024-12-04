@@ -532,6 +532,7 @@ label {
 
 /*_______________мультики_______________________*/
 .multic {
+  min-height: 100%;
   background: #ca7777 url(../img/fonMulta.jpg) fixed center center/cover; 
 }
 
