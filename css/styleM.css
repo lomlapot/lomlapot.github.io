@@ -464,7 +464,7 @@ label {
 /*------------------------VIDEO----------------*/
 .video {
   min-height: 100%;
-  background: #8179e8 url(../img/vid.jpg)  center / cover;
+  background: blueviolet url(../img/vid.jpg)  center / cover;
 }
 .video_item {
   margin: 10px 0;
