@@ -521,7 +521,7 @@ label {
 /*________________песенки---------------*/
 .muzon {
   min-height: 100%;
-  background: #5b52da url(../img/fon_muzon.avif) fixed center / cover;
+  background: #5b52da url(../img/fon_muzon.avif)  center / cover;
 }
 
 .muzon-item h2 {
@@ -533,7 +533,7 @@ label {
 /*_______________мультики_______________________*/
 .multic {
   min-height: 100%;
-  background: #ca7777 url(../img/fonMulta.jpg) fixed center center/cover; 
+  background: #ca7777 url(../img/fonMulta.jpg) center center/cover; 
 }
 
 .multik-item {
