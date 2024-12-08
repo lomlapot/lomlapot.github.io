@@ -465,6 +465,7 @@ label {
 .video {
   min-height: 100%;
   background: blueviolet url(../img/vid.jpg)  center / cover;
+  padding-bottom: 60px;
 }
 .video_item {
   margin: 10px 0;
@@ -522,6 +523,7 @@ label {
 .muzon {
   min-height: 100%;
   background: #5b52da url(../img/fon_muzon.avif)  center / cover;
+  padding-bottom: 60px;
 }
 
 .muzon-item h2 {
@@ -533,7 +535,8 @@ label {
 /*_______________мультики_______________________*/
 .multic {
   min-height: 100%;
-  background: #ca7777 url(../img/fonMulta.jpg) center center/cover; 
+  background: #ca7777 url(../img/fonMulta.jpg) center center/cover;
+  padding-bottom: 60px;
 }
 
 .multik-item {
