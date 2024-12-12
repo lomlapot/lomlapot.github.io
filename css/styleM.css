@@ -526,6 +526,11 @@ label {
   padding-bottom: 60px;
 }
 
+.muzon-item{
+  width: 60%;
+  margin: 0 auto;
+}
+
 .muzon-item h2 {
   color: white;
   margin-bottom: 20px;
