@@ -18,7 +18,7 @@ body {
   box-sizing: border-box;
 }
 
-.right {
+.right { 
   text-align: right;
 }
 
@@ -764,6 +764,7 @@ filter: invert(34%) sepia(43%) saturate(2973%) hue-rotate(229deg) brightness(90%
 @media (orientation: portrait) and (min-width: 600px) {
   .row-portrait {
     flex-direction: column;
+    overfow-x: hidden;
   }
   .col-sm-6 {
     min-width: 100%;
