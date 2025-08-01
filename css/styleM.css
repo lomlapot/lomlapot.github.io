@@ -761,10 +761,8 @@ filter: invert(34%) sepia(43%) saturate(2973%) hue-rotate(229deg) brightness(90%
     transform-origin: 0% 0%;
   }
 }
-@media (orientation: portrait) and (min-width: 600px) {
-  body{
-    overflow-x:hidden;
-  }
+@media (orientation: portrait){
+ 
   .row-portrait {
     flex-direction: column;
     
